@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Sheep Shed</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about {
+      padding: 40px;
+      background-color: #fff;
+      max-width: 900px;
+      margin: 30px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .about-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: nowrap; /* Keeps side-by-side layout */
+    }
+
+    .owner-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #2e7d32;
+      flex-shrink: 0; /* Prevent image from shrinking */
+    }
+
+    .about-text {
+      flex: 1;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .about-text {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About the Farm</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="feed.html">Feed</a>
+  <a href="login.html">Login</a>
+</nav>
+
+  </header>
+
+  <section class="about">
+    <h2>About OWNER</h2>
+    <div class="about-container">
+      <img src="images/owner.jpg" alt="Owner Photo" class="owner-img">
+      <div class="about-text">
+        <p>
+          Our sheep shed is managed by <strong>Mr. Sathish Kumar</strong>, an experienced livestock farmer 
+          with over a decade of hands-on experience in breeding and raising Indian sheep. With a herd of over 
+          150 sheep, this shed focuses on efficient care, feeding, health monitoring, and record keeping. 
+          The project aims to streamline the management of the shed using modern technologies and data systems.
+        </p>
+    </div>
+    </div>
+        <div class="contact number">
+        <h4>CONTACT NUMBER</h4>
+        <p>
+            <ul>Owner number :9866900709</ul>
+            <ul>Alternative number: 9014087671</ul>
+            <ul>Worker number: 9391962152</ul>
+        </p>
+    </div>
+    <div class="LOCATION">
+        <h3>LOCATION OF THE FARM</h3>
+        <p>
+            <ul>Village Name : Vittapalli</ul>
+            <ul>Mandal Name : parigi</ul>
+            <ul>DISTRICT NAME : Sathya sai</ul>
+        </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sheep Shed Management</p>
+  </footer>
+
+</body>
+</html>
